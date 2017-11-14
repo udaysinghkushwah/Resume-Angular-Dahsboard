@@ -1,0 +1,118 @@
+﻿<!--
+Author: UDAYSINGH KUSHWAH
+Page Description: About Me page
+Date: 11 Nov 2017
+-->
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Contact Me
+
+        </h1>
+        <ol class="breadcrumb">
+            <li><a><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li class="active">Contact Me</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="panel panel-info" style="min-height:453px;">
+                <div class="panel-heading">
+                    Send me a Message
+                </div>
+                <div class="panel-body">
+                    <form data-ng-submit="vm.submitForm();" name="vm.contactForm">
+                        <md-content class="autoScroll">
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Name</label>
+                                <md-icon class="fa fa-user"></md-icon>
+                                <input type="text" required name="name" data-ng-model="vm.message.name">
+                            </md-input-container>
+
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Phone</label>
+                                <md-icon class="fa fa-phone"></md-icon>
+                                <input type="text" required name="phone" data-ng-model="vm.message.phone" pattern="[0-9]{10,12}">
+                            </md-input-container>
+
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Email</label>
+                                <md-icon class="fa fa-envelope"></md-icon>
+                                <input type="email" required name="email" data-ng-model="vm.message.email">
+                            </md-input-container>
+
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Your Message</label>
+                                <md-icon class="fa fa-clipboard"></md-icon>
+                                <input type="text" required name="message" data-ng-model="vm.message.message">
+                            </md-input-container>
+                            <div class="pull-right">
+                                <md-button class="md-raised md-primary" type="submit">Send <i class="fa fa-angle-double-right"></i></md-button>
+                                <md-button class="md-raised md-warn" type="reset">Clear <i class="fa fa-trash-o"></i></md-button>
+                            </div>
+                        </md-content>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="col-xs-12 padding-none">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        Email Id
+                    </div>
+                    <div class="panel-body">
+                        <i class="fa fa-envelope" style="width:25px;"></i><a href="mailto:toudaysinghkushwah@gmail.com"> toudaysinghkushwah@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 padding-none">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        Website
+                    </div>
+                    <div class="panel-body">
+                        <i class="fa fa-dribbble" style="width:25px;"></i> <a href="http://udaysinghk.in" target="_blank"> coming soon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 padding-none">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Contact Number
+                    </div>
+                    <div class="panel-body">
+                        <i class="fa fa-whatsapp" style="width:25px;"></i> <a href="tel:+917042808577"> +91-(7042)-(808)-(577)</a><br />
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 padding-none">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        Github
+                    </div>
+                    <div class="panel-body">
+                        <i class="fa fa-github" style="width:25px;"></i><a href="https://github.com/udaysinghkushwah" target="_blank"> https://github.com/udaysinghkushwah </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-warning">
+                    <div class="panel-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.2481756588838!2d77.04811422653373!3d28.419477052316978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2283be6e0081%3A0xe0f0bff5f111224d!2zMjjCsDI1JzEwLjEiTiA3N8KwMDInNTYuMiJF!5e0!3m2!1sen!2sin!4v1510690396606" width="100%;" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section><!-- /.content -->
+    https://www.google.co.in/maps/place/28%C2%B025'10.0%22N+77%C2%B002'56.1%22E/@28.4194536,77.0483728,
