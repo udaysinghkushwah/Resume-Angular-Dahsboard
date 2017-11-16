@@ -18,19 +18,19 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
     vm.home.mainData = [
         {
             title: "Projects",
-            value: "30+",
+            value: "10+",
             theme: "aqua",
             icon: "puzzle-piece"
         },
         {
-            title: "Designs",
-            value: "250+",
+            title: "Library ",
+            value: "5+",
             theme: "red",
-            icon: "paint-brush"
+            icon: "git"
         },
         {
             title: "Awards",
-            value: "50+",
+            value: "6+",
             theme: "green",
             icon: "trophy"
         },
