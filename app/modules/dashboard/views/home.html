@@ -69,21 +69,18 @@ Date: 11 Nov 2017
 							</div>
 						</div>
 						<!-- /.col -->
-						<div class="col-md-4" style="border-left: 1px solid #eee;">
-							<p class="text-center">
-								<strong>Know About Me</strong>
-							</p>
-							<div class="progress-group"
-								data-ng-repeat="skill in vm.home.skills">
-								<span class="progress-text">{{skill.title}}</span> <span
-									class="progress-number"><b>{{skill.percentage}}</b>/100</span>
-								<div class="progress sm border-radius-5">
-									<div class="progress-bar progress-bar-{{skill.theme}}"
-										style="width: {{skill.percentage"></div>
-								</div>
-							</div>
-							<!-- /.progress-group -->
-						</div>
+						 <div class="col-md-4" style="border-left:1px solid #eee;">
+                                <p class="text-center">
+                                    <strong>Know About Me</strong>
+                                </p>
+                                <div class="progress-group" data-ng-repeat="skill in vm.home.skills">
+                                    <span class="progress-text">{{skill.title}}</span>
+                                    <span class="progress-number"><b>{{skill.percentage}}</b>/100</span>
+                                    <div class="progress sm border-radius-5">
+                                        <div class="progress-bar progress-bar-{{skill.theme}}" style="width: {{skill.percentage}}%"></div>
+                                    </div>
+                                </div><!-- /.progress-group -->
+                            </div><!-- /.col -->
 						<!-- /.col -->
 					</div>
 					<!-- /.row -->
